@@ -10,12 +10,12 @@ nav ul li:hover > ul {
     display: block;
 }
 nav {
-    margin: 0 auto;
-
+    margin: 0 auto
 }
 nav ul {
 	background: #9e9e9e; 
-	padding: 0;  
+    padding: 0;  
+    margin: 0;
 	list-style: none;
 	position: relative;
     display: inline-table;
@@ -62,3 +62,13 @@ nav ul ul li a {
 nav ul ul li a:hover {
 background: #4b545f;
 }
+
+#logo{
+    width: 170px;
+}
+
+div{
+    background-color: #b1cff5;
+    width: 100%;
+}
+

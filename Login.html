@@ -1,23 +1,56 @@
 <!DOCTYPE html>
 <html lang="Pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login BestStore</title>
-    <link rel="stylesheet" type="text/css" href="login.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
+
 <body>
+    <section>
+        <div id="cabecalho">
+            <a href="index.html">
+                <img id="logo" src="imgs/bestStoreLogo.png" alt="">
+            </a>
+            <input type="text" name="" id="pesquisa" placeholder="Tudo que você procura!!!">
+            <div id="cabecalhoLink">
+                Olá Visitante <br> <a href="login.html">Entrar</a> |<a href="cadastrar.html">Cadastrar</a>
+                <img id="carrinho" src="imgs/carrinho.png" alt="">
+                <img id="usuario" src="imgs/usuario.png" alt="">
+
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Departamentos</a>
+                    <ul>
+                        <li><a href="Login.html">D1</a></li>
+                        <li><a href="#">D2</a></li>
+                        <li><a href="#">D3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Destaque 1</a></li>
+                <li><a href="#">Destaque 2</a></li>
+                <li><a href="#">Destaque 3</a></li>
+                <li><a href="#">Destaque 4</a></li>
+                <li><a href="#">Destaque 5</a></li>
+            </ul>
+        </nav>
+    </section>
+
     <div class="container">
         <div class="box">
             <h1>Login</h1>
             <form action="">
                 <div class="txtField">
-                    <label for="usuario">Usuario:</label>
+                    <label for="usuario">Usuario:</label><br>
                     <input type="text" name="usuario" id="">
                 </div>
                 <div class="txtField">
-                    <label for="senha">Senha:</label>
+                    <label for="senha">Senha:</label><br>
                     <input type="password" name="senha" id="">
                 </div>
                 <input id="submit" type="submit" value="Login">
@@ -28,4 +61,5 @@
         </div>
     </div>
 </body>
+
 </html>

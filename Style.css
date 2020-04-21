@@ -2,88 +2,127 @@ nav ul ul {
     display: none;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-    
 }
 
-nav ul li:hover > ul {
+nav ul li:hover>ul {
     display: block;
 }
 
-nav {   
+nav {
     margin-top: 50px;
     z-index: -1;
 }
 
 nav ul {
-	background: #888aa3; 
-    padding: 0;  
+    background: #888aa3;
+    padding: 0;
     margin: 0;
-	list-style: none;
-	position: relative;
+    list-style: none;
+    position: relative;
     display: inline-table;
     width: 100%;
 }
 
 nav ul li {
     float: left;
-    width: 16.66%;
+    width: 16.666%;
 }
+
 nav ul li ul li {
     width: 100%;
 }
 
 nav ul li:hover {
-	background: #18345b;
+    background: #18345b;
 }
 
 nav ul li:hover a {
-	color: #fff;
+    color: #fff;
 }
-		
+
 nav ul li a {
-    display: block; padding: 15px 20px;
-    color: black; text-decoration: none;
+    display: block;
+    padding: 15px 20px;
+    color: black;
+    text-decoration: none;
 }
 
 nav ul ul {
-	background: #888aa3; padding: 0;
-    position: absolute; top: 100%;
+    background: #888aa3;
+    padding: 0;
+    position: absolute;
+    top: 100%;
     width: 150px;
 }
 
 nav ul ul li {
-	float: none; 
-
+    float: none;
 }
 
 nav ul ul li a {
-	padding: 15px 20px;
-	color: #fff;
-}	
-
-nav ul ul li a:hover {
-background: #18345b;
+    padding: 15px 20px;
+    color: #fff;
 }
 
-#logo{
+nav ul ul li a:hover {
+    background: #18345b;
+}
+
+#logo {
     width: 170px;
 }
 
-#cabecalho{
+#cabecalho {
     background-color: #b1cff5;
     width: 100%;
-    position:fixed;
-    left:0;
-    top:0;
-    width:100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: +1;
 }
 
-#corpo{
+#corpo {
     height: 2000px;
-
 }
 
+#cabecalho input {
+    top: 11px;
+    position: fixed;
+    padding: 4px;
+    margin-left: 20px;
+    width: 45%;
+}
+
+#cabecalhoLink {
+    text-align: center;
+    float: right;
+    margin: 6px;
+    width: 250px;
+}
+
+#cabecalhoLink #carrinho {
+    position: absolute;
+    max-width: 55px;
+    max-height: 55px;
+    width: auto;
+    height: auto;
+    float: right;
+    top: 0px;
+    right: 5px;
+}
+
+#cabecalhoLink #usuario {
+    position: absolute;
+    max-width: 40px;
+    max-height: 40px;
+    width: auto;
+    height: auto;
+    float: right;
+    top: 5px;
+    right: 210px;
+}

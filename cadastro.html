@@ -44,7 +44,7 @@
 
     <div class="container" id="cadastroP1">
         <div class="box">
-            <h1>Cadastro</h1>
+            <h1>Criar Conta</h1>
 
             <div class="txtField">
                 <label for="nome">Nome:</label><br>
@@ -69,25 +69,51 @@
     <div class="container" id="cadastroP2">
         <div class="box">
             <h1>Criar Conta</h1>
-            <form action="">
-                <div class="txtField">
-                    <label for="nome">Nome:</label><br>
-                    <input type="text" name="nome" id="">
-                </div>
-                <div class="txtField">
-                    <label for="email">E-mail:</label><br>
-                    <input type="text" name="email" id="">
-                </div>
-                <div class="txtField">
-                    <label for="senha">Senha:</label><br>
-                    <input type="password" name="senha" id="">
-                </div>
-                <div class="txtField">
-                    <label for="senhac">Confirmação da Senha:</label><br>
-                    <input type="password" name="senhac" id="">
-                </div>
+            <div class="txtField">
+                <label for="logradouro">Logradouro:</label><br>
+                <input type="text" name="logradouro" id="">
+            </div>
+            <div class="txtField">
+                <label for="complemento">Complemento:</label><br>
+                <input type="text" name="complemento" id="">
+            </div>
+            <div class="txtField">
+                <label for="cidade">Cidade:</label><br>
+                <input type="text" name="cidade" id="">
+            </div>
+            <div class="txtField">
+                <label for="uf">UF:</label><br>
+                <select id="selecao" name="uf" form="">
+                    <option value="AC">AC</option>
+                    <option value="AL">AL</option>
+                    <option value="AP">AP</option>
+                    <option value="AM">AM</option>
+                    <option value="BA">BA</option>
+                    <option value="CE">CE</option>
+                    <option value="DF">DF</option>
+                    <option value="ES">ES</option>
+                    <option value="GO">GO</option>
+                    <option value="MG">MG</option>
+                    <option value="PA">PA</option>
+                    <option value="PB">PB</option>
+                    <option value="PR">PR</option>
+                    <option value="PE">PE</option>
+                    <option value="PI">PI</option>
+                    <option value="RJ">RJ</option>
+                    <option value="RN">RN</option>
+                    <option value="RS">RS</option>
+                    <option value="RO">RO</option>
+                    <option value="RR">RR</option>
+                    <option value="SC">SC</option>
+                    <option value="SP">SP</option>
+                    <option value="SE">SE</option>
+                    <option value="TO">TO</option>
+                  </select>
+            </div>
+            <input class="submit" type="submit" value="Voltar" onclick="cadastroAnterior()">
+            <a href="index.html">
                 <input class="submit" type="submit" value="Próximo">
-            </form>
+            </a>
         </div>
     </div>
 </body>

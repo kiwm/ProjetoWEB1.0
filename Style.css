@@ -132,7 +132,7 @@ nav ul ul li a:hover {
 
 .container {
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     background: #888aa379;
     display: flex;
     flex-direction: row;
@@ -145,17 +145,13 @@ nav ul ul li a:hover {
     background: #fff;
     border-radius: 10px;
     box-shadow: 10px 10px 30px 10px rgba(0, 0, 0, 0.3);
+    padding: 3px;
+    margin-top: 100px;
 }
 
 h1 {
     text-align: center;
     padding-bottom: 5px;
-}
-
-form {
-    padding: 0 5px;
-    box-sizing: border-box;
-    text-align: left;
 }
 
 .submit {
@@ -169,6 +165,7 @@ form {
     cursor: pointer;
     margin-top: 30px;
     margin-left: 30px;
+    margin-right: 30px;
     margin-bottom: 10px;
     box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.3);
 }
@@ -195,6 +192,19 @@ form {
     width: 90%;
 }
 
+select {
+    padding: 10px;
+}
+
+#cadastroP2 {
+    display: none;
+}
+
+#cadastroP2 .submit {
+    width: 34%;
+    align-items: center;
+}
+
 @keyframes scale {
     0% {
         transform: scale(1);
@@ -202,5 +212,14 @@ form {
     100% {
         transform: scale(1.1);
         box-shadow: 10px 10px 30px 10px rgba(0, 0, 0, 0.3);
+    }
+}
+
+@media screen and (max-width:915px) {
+    nav {
+        display: none;
+    }
+    #cabecalho input {
+        display: none;
     }
 }

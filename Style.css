@@ -16,6 +16,7 @@ nav {
     margin-top: 50px;
     margin-bottom: 0px;
     z-index: -1;
+    background-color: #18345b;
 }
 
 nav ul {
@@ -141,9 +142,9 @@ nav ul ul li a:hover {
 
 .box {
     width: 400px;
-    height: 340px;
     background: #fff;
     border-radius: 10px;
+    box-shadow: 10px 10px 30px 10px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
@@ -157,10 +158,10 @@ form {
     text-align: left;
 }
 
-#submit {
+.submit {
     width: 85%;
     height: 50px;
-    border: 1px solid;
+    border: none;
     background-color: #18345b;
     border-radius: 25px;
     font-size: 20px;
@@ -168,6 +169,13 @@ form {
     cursor: pointer;
     margin-top: 30px;
     margin-left: 30px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.3);
+}
+
+.submit:hover {
+    animation: scale 0.4s linear;
+    animation-fill-mode: forwards;
 }
 
 .cadastrarLink {
@@ -185,4 +193,14 @@ form {
 .txtField input {
     padding: 10px;
     width: 90%;
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+        box-shadow: 10px 10px 30px 10px rgba(0, 0, 0, 0.3);
+    }
 }

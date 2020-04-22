@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login BestStore</title>
+    <title>BestStore/Cadastro</title>
     <script src="script.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -42,22 +42,51 @@
         </nav>
     </section>
 
-    <div class="container">
+    <div class="container" id="cadastroP1">
         <div class="box">
-            <h1>Login</h1>
+            <h1>Cadastro</h1>
+
+            <div class="txtField">
+                <label for="nome">Nome:</label><br>
+                <input type="text" name="nome" id="">
+            </div>
+            <div class="txtField">
+                <label for="email">E-mail:</label><br>
+                <input type="text" name="email" id="">
+            </div>
+            <div class="txtField">
+                <label for="senha">Senha:</label><br>
+                <input type="password" name="senha" id="">
+            </div>
+            <div class="txtField">
+                <label for="senhac">Confirmação da Senha:</label><br>
+                <input type="password" name="senhac" id="">
+            </div>
+            <input class="submit" type="submit" value="Próximo" onclick="proximoCadastro()">
+        </div>
+    </div>
+
+    <div class="container" id="cadastroP2">
+        <div class="box">
+            <h1>Criar Conta</h1>
             <form action="">
                 <div class="txtField">
-                    <label for="usuario">Usuario:</label><br>
-                    <input type="text" name="usuario" id="">
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" name="nome" id="">
+                </div>
+                <div class="txtField">
+                    <label for="email">E-mail:</label><br>
+                    <input type="text" name="email" id="">
                 </div>
                 <div class="txtField">
                     <label for="senha">Senha:</label><br>
                     <input type="password" name="senha" id="">
                 </div>
-                <input class="submit" type="submit" value="Login">
-                <div class="cadastrarLink">
-                    Cliente novo? <a href="cadastro.html">inscreva-se</a>
+                <div class="txtField">
+                    <label for="senhac">Confirmação da Senha:</label><br>
+                    <input type="password" name="senhac" id="">
                 </div>
+                <input class="submit" type="submit" value="Próximo">
             </form>
         </div>
     </div>

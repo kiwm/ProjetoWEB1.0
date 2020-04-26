@@ -207,7 +207,6 @@ select {
 }
 
 .produto {
-    height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -215,7 +214,7 @@ select {
     font-size: 3rem;
     color: #fff;
     box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
-    height: 100%;
+    height: 400px;
     width: 100%;
     border-radius: 4px;
     transition: all 500ms;
@@ -228,7 +227,7 @@ select {
 }
 
 .basic-grid {
-    height: 1500px;
+    height: 1fr;
     padding: 15px;
     display: grid;
     gap: 1rem;

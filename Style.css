@@ -18,6 +18,8 @@ nav {
     margin-bottom: 0px;
     z-index: -1;
     background-color: #18345b;
+    max-width: 1920px;
+    min-width: 1300px;
 }
 
 nav ul {
@@ -278,9 +280,6 @@ produto:hover {
 }
 
 @media screen and (max-width:915px) {
-    nav {
-        display: none;
-    }
     #cabecalho input {
         display: none;
     }

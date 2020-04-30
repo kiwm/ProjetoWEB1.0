@@ -4,11 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Produto BestStore</title>
     <script src="script.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-</head>
 </head>
 
 <body>
@@ -29,7 +28,7 @@
             <ul>
                 <li><a href="#">Departamentos</a>
                     <ul>
-                        <li><a href="login.html">D1</a></li>
+                        <li><a href="Login.html">D1</a></li>
                         <li><a href="#">D2</a></li>
                         <li><a href="#">D3</a></li>
                     </ul>
@@ -43,21 +42,18 @@
         </nav>
     </section>
 
-    <section class="basic-grid">
-        <a href="produto.html" class="produtoLink" onload="">
-            <!--Dados que serao adicionados atraves do banco-->
-            <div class="produto">
-                <img class="produtoImg" src="Imgs/bola.png" alt="">
-                <h1>Bola de futebol</h1>
-                <p>Com a Bola Nike Strike Brasil Aerowtrac Costura 2019 você garante uma partida com muito mais emoção...</p>
-                <p class="preco">R$ 95,00</p>
+    <section>
+        <div class="container">
+            <div class="box" id="boxDescricao">
+                <img id="imagemProduto" src="Imgs/bola.png" alt="">
+                <h1 id="nomeProduto">Bola de futebol</h1>
+                <p id="precoInicial">De: R$ 100,00</p>
+                <p id="precoFinal">Por: R$ 95,00</p>
+                <p id="economia">Você economiza: 5,00 (5%)</p>
+                <p id="descricaoProduto">Com a Bola Nike Strike Brasil Aerowtrac Costura 2019 você garante uma partida com muito mais emoção...</p>
             </div>
-        </a>
-        <div class="produto">2</div>
-        <div class="produto">3</div>
-        <div class="produto">4</div>
-        <div class="produto">5</div>
-        <div class="produto">6</div>
+        </div>
+
 
     </section>
 </body>

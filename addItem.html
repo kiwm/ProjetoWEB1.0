@@ -46,7 +46,7 @@
         <div class="box" id="boxAddItem">
             <section>
                 <h1>Produtos</h1>
-                <table style="width:100%">
+                <table id="tb1" style="width:100%">
                     <tr>
                         <th>Nome do produto</th>
                         <th>Descrição</th>
@@ -82,7 +82,7 @@
             <form id="areaCadastro">
                 <h1>Cadastro de produtos</h1>
                 <label for="cadastroNomeP">Nome do produto:</label> <br>
-                <input type="text" name="" id="cadastroNomeProduto">
+                <input type="text" name="" id="cadastroNomeP">
 
                 <label for="cadastroDescricaoP">Descricao:</label> <br>
                 <textarea rows="4"></textarea>
@@ -103,11 +103,10 @@
                         <input type="text" name="" id="cadastroDescontoP">
                     </div>
                 </div>
-
             </form>
             <div id="btnCP">
                 <input class="submit" type="submit" value="Cancelar">
-                <input class="submit" type="submit" value="Salvar">
+                <input onclick="adicionarLinha('tb1')" class="submit" type="submit" value="Salvar">
             </div>
         </div>
 </body>

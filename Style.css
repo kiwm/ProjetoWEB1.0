@@ -293,7 +293,7 @@ textarea {
     outline: 0;
 }
 
-#areaCadastro .submit {
+#btnCP .submit {
     width: 110px;
 }
 
@@ -304,6 +304,8 @@ select {
 
 #btnCP {
     text-align: right;
+    display: flex;
+    float: right;
 }
 
 .inputPequeno {
@@ -337,6 +339,15 @@ td {
 
 tr:nth-child(even) {
     background-color: #888aa3;
+}
+
+.xButton {
+    margin: 0;
+    height: 24px;
+    width: 24px;
+    background-image: url("Imgs/xButton.png");
+    border-radius: 15px;
+    border: none;
 }
 
 @keyframes scale {

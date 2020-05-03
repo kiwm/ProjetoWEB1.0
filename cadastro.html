@@ -37,7 +37,7 @@
                 <li><a href="#">Destaque 2</a></li>
                 <li><a href="#">Destaque 3</a></li>
                 <li><a href="#">Destaque 4</a></li>
-                <li><a href="#">Destaque 5</a></li>
+                <li><a href="addItem.html">Destaque 5</a></li>
             </ul>
         </nav>
     </section>
@@ -45,23 +45,18 @@
     <div class="container" id="cadastroP1">
         <div class="box">
             <h1>Criar Conta</h1>
+            <label for="nome">Nome:</label><br>
+            <input type="text" name="nome" id="">
 
-            <div class="txtField">
-                <label for="nome">Nome:</label><br>
-                <input type="text" name="nome" id="">
-            </div>
-            <div class="txtField">
-                <label for="email">E-mail:</label><br>
-                <input type="text" name="email" id="">
-            </div>
-            <div class="txtField">
-                <label for="senha">Senha:</label><br>
-                <input type="password" name="senha" id="">
-            </div>
-            <div class="txtField">
-                <label for="senhac">Confirmação da Senha:</label><br>
-                <input type="password" name="senhac" id="">
-            </div>
+            <label for="email">E-mail:</label><br>
+            <input type="text" name="email" id="">
+
+            <label for="senha">Senha:</label><br>
+            <input type="password" name="senha" id="">
+
+            <label for="senhac">Confirmação da Senha:</label><br>
+            <input type="password" name="senhac" id="">
+
             <input class="submit" type="submit" value="Próximo" onclick="proximoCadastro()">
         </div>
     </div>
@@ -69,21 +64,21 @@
     <div class="container" id="cadastroP2">
         <div class="box">
             <h1>Criar Conta</h1>
-            <div class="txtField">
-                <label for="logradouro">Logradouro:</label><br>
-                <input type="text" name="logradouro" id="">
-            </div>
-            <div class="txtField">
-                <label for="complemento">Complemento:</label><br>
-                <input type="text" name="complemento" id="">
-            </div>
-            <div class="txtField">
-                <label for="cidade">Cidade:</label><br>
-                <input type="text" name="cidade" id="">
-            </div>
-            <div class="txtField">
-                <label for="uf">UF:</label><br>
-                <select id="selecao" name="uf" form="">
+
+            <label for="logradouro">Logradouro:</label><br>
+            <input type="text" name="logradouro" id="">
+
+
+            <label for="complemento">Complemento:</label><br>
+            <input type="text" name="complemento" id="">
+
+
+            <label for="cidade">Cidade:</label><br>
+            <input type="text" name="cidade" id="">
+
+
+            <label for="uf">UF:</label><br>
+            <select id="selecao" name="uf" form="">
                     <option value="AC">AC</option>
                     <option value="AL">AL</option>
                     <option value="AP">AP</option>
@@ -109,7 +104,7 @@
                     <option value="SE">SE</option>
                     <option value="TO">TO</option>
                   </select>
-            </div>
+
             <input class="submit" type="submit" value="Voltar" onclick="cadastroAnterior()">
             <a href="index.html">
                 <input class="submit" type="submit" value="Próximo">

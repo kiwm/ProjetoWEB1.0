@@ -97,9 +97,9 @@ nav ul ul li a:hover {
 }
 
 #cabecalho input {
-    top: 11px;
+    top: 7px;
     position: fixed;
-    padding: 4px;
+    padding: 6px;
     margin-left: 20px;
     width: 45%;
 }
@@ -259,8 +259,8 @@ textarea {
 }
 
 #boxAddItem {
-    width: 1000px;
-    text-align: center;
+    width: 1300px;
+    height: fit-content;
 }
 
 label {
@@ -320,7 +320,8 @@ select {
 }
 
 .divPequena .inputPequeno {
-    width: 33%;
+    width: 30%;
+    margin-left: 2.3%;
 }
 
 table {
@@ -346,8 +347,19 @@ tr:nth-child(even) {
     height: 24px;
     width: 24px;
     background-image: url("Imgs/xButton.png");
-    border-radius: 15px;
     border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.editarButton {
+    margin: 0;
+    height: 24px;
+    width: 24px;
+    background-image: url("Imgs/editarButton.png");
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
 }
 
 @keyframes scale {

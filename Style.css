@@ -205,7 +205,6 @@ produto:hover {
 }
 
 .produtoImg {
-    height: 40%;
     margin: 5px;
     border-radius: 10px;
     margin-bottom: 0px;
@@ -360,6 +359,10 @@ tr:nth-child(even) {
     border: none;
     cursor: pointer;
     background-color: transparent;
+}
+
+.preco {
+    margin: 10px auto;
 }
 
 @keyframes scale {
